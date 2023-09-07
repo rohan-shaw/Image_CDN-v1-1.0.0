@@ -1,4 +1,3 @@
- ```
 # Vrindh Image CDN Gallery
 
 This is an image CDN gallery built using HTML, CSS, JavaScript, and Bootstrap. It allows users to upload, view, and manage images.
@@ -6,9 +5,10 @@ This is an image CDN gallery built using HTML, CSS, JavaScript, and Bootstrap. I
 ## Prerequisites
 
 To run this project, you will need the following:
-
+```
 * A code editor or IDE, such as Visual Studio Code.
 * A web browser.
+```
 
 ## Setup
 
@@ -19,10 +19,6 @@ git clone https://github.com/vrindh/image-cdn-gallery.git
 ```
 
 2. Start the server.
-
-```
-npm install
-```
 
 4. Open your web browser and navigate to `http://localhost:{port}`.
 
@@ -47,4 +43,3 @@ The project is structured as follows:
 
 This is a simple image CDN gallery built using HTML, CSS, JavaScript, and Bootstrap. It can be used to store and manage images.
 
-```

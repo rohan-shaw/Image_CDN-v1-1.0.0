@@ -1,0 +1,105 @@
+img {
+	border-radius: 8px;
+}
+
+.card-body{
+    min-height: 7.5rem!important;
+}
+
+.navbar-brand{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: space-between!important;
+}
+
+.navbar{
+    background-color: #010101!important;
+    color: white!important;
+}
+
+a.navbar-brand {
+    color: #fff!important;
+}
+
+a.nav-link.active {
+    color: #ffffff!important;
+}
+a.nav-link {
+    color: #cfcccc!important;
+}
+
+a.nav-link:hover {
+    color: #fa0505!important;
+}
+
+button#logout-btn {
+    color: red!important;
+    border: 2px solid red!important;
+    padding: 0.5rem 1rem!important;
+}
+
+img.d-inline-block.align-text-top {
+    margin-right: 1rem;
+}
+
+#main{
+    background-color: #010101!important;
+    color: white!important;
+    min-height: 100vh;
+}
+
+/* CSS Animation for the Card Border */
+@keyframes borderAnimation {
+    0% {
+        border-image-slice: 1;
+    }
+    50% {
+        border-image-slice: 3;
+    }
+    100% {
+        border-image-slice: 1;
+    }
+}
+
+.card-border-animation {
+    border: 1.5px solid transparent;
+    border-image: linear-gradient(135deg, red, yellow, green);
+    border-image-slice: 1;
+    border-radius: 8px;
+    transition: border-image-slice 0.5s;
+}
+
+.card-border-animation {
+    animation: borderAnimation 2s infinite;
+}
+
+a.page-link{
+    background-color: transparent!important;
+    color: white;
+}
+
+a.page-link:hover{
+    background-color: transparent!important;
+    color: white;
+}
+
+span#basic-addon1 {
+    background: crimson;
+    border-color: black!important;
+    color: white;
+}
+
+span#basic-addon2 {
+    background: crimson;
+    border-color: black!important;
+    color: white;
+}
+
+input.form-control {
+    background: transparent!important;
+    border-color: black!important;
+}
+
+.modal{
+    color: black;
+}
